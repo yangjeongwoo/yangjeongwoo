@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title> 양정우의 포트폴리오</title>
+        <link rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+           
+         
+        <style>
+            html, body{
+                font-family: "맑은 고딕";
+                font-size: 15px;
+                color:#444444;
+                width:500px;
+                margin: 10px auto;
+            }
+            ul{
+                list-style-type:none;
+            }
+            #header {
+                height:150px;
+                position:relative;
+                background-image:url('photo.jpg');
+            /*border:solid 1px #ff0000; */
+            }
+             #logo{
+           position:relative;
+           top:30px;
+           left:30px;
+           font-size:20px;
+           color:orangered;
+           font-weight:bolder;
+           animation-duration:3s;
+           animation-name: slidein;
+           /*border:solid 1px #ff0000; */
+          }
+          @keyframes slidein{
+              from{
+                  margin-left: 100%;
+                  width:300%;
+              }
+              to{
+                  margin-left:0%;
+                  width:100%;
+              }
+          } 
+          #home{
+              background-image:url('컴퓨터 움짤.gif');
+              height:500px;
+          }
+         
+          #top_menu li{
+              display:inline;
+          }
+          #main_menu {
+              position:relative;
+              top:30px;
+              font-size: 30px;
+              color:#ffffff;
+              background-color:blue;
+              margin-top:15px;
+              text-align:right;
+               /*border:solid 1px #ff0000; */
+          }
+          #main_menu li{
+              padding:0 20px 0 20px;
+              display:inline;
+          }
+       
+        
+        #item{
+            float:right;
+        }
+
+        #양정우{
+           font-size:40px;
+           font-weight:bolder;
+        }
+        #활동기록{
+           font-size:40px;
+           font-weight:bolder;
+           position:absolute;
+           right:30px;
+        }
+       #contact{
+        font-size:40px;
+           font-weight:bolder;
+          
+          
+           
+       }
+        
+       #top{
+           height:500px;
+           background-color:lemonchiffon;
+       }
+       #left{
+           float:left; left:20px; top:20px;
+       }
+       
+        #right{
+           float:left; right: 20px; top:20px;
+        } 
+
+        #sate{
+            position:absolute;
+           left:50%;
+        }
+
+        #nate{
+            float:right;
+        }
+        #vate{
+           position:absolute;
+            left:20px; top:1000px;
+        }
+       
+    #middle{
+        height:850px;
+         background-color:palegreen;
+    }
+
+       #포토샵{
+           position:absolute;
+           top:1350px;
+       }
+       #취미활동{
+           position:absolute;
+         top:1700px;
+       }
+       #bottom{
+           position:absolute;
+           height:600px; right:0px; left:0px;
+           background:palevioletred;
+       }
+      
+        
+     
+        </style>
+    </head>
+    <body>
+       
+        <section id="header">
+        <p id="logo">어서오세요 양정우의 포트폴리오입니다</p> 
+
+
+        <ul id="main_menu">
+            <li><a href="#home">home</a></li>
+            <li><a href="#top">profile</a></li>
+            <li><a href="#middle">achievement</a></li>
+            <li><a href="#bottom">contact</a></li>
+        </ul>
+           
+        </section>
+   <section id="home">
+
+   </section>
+        <section id="top">
+                <p id="양정우">Profile</p>
+        <section id="left">
+                <img src="yjw.png" title="fresh man" alt="fresh man" width="200" height="200"/>
+            
+        </section>       
+    </br>
+    
+                <section id="right">
+                    <ul>
+                    <li><h2>양정우</h2></li>
+                    <li>동양미래대학교 컴퓨터정보공학과 소속 재학생</li>
+                    <li>생년월일: 2000.06.20</li>
+                    <li>주소: 서울시 은평구 역촌동</li>
+                    <li>전화번호: 010-6749-3025</li>
+                    <li>이메일: yyyyjw@naver.com</li>
+                    </ul>
+                </section>    
+                <section id="sate">
+                        <h2>전공과목</h2>
+                        <ul>
+                            <li>● Html</li>
+                            <li>● Css</li>
+                            <li>● Java</li>
+                            <li>● SQL</li>
+                            <li>● 포토샵</li>
+                            <li>● C언어</li>
+                        </ul>
+                    </section>
+                <section id="nate">
+                    <img src="그래프.png" title="graph" alt="graph" >
+                </section>
+                <section id="vate">
+                <h2>장점</h2>
+                <u1>
+               <li>  맡은 일에 책임감을 가지고 성실하게 임함</li>
+               <li>  남에게 피해주는 것을 싫어함</li>
+               <li>  신체 체격이 좋음</li>
+               <li>   중학교 때부터 "스크래치"라는 프로그램으로 게임을 만들었으며 고등학교에 올라와  c언어를 
+               비롯한 여러 언어형식 프로그램들을 스스로 해본 경력이 있음</li>
+                </u1>
+            </section>
+
+            </section>
+
+            <p id="활동기록">개인 활동기록</p>
+        <section id="middle">
+                
+          <section id="포토샵">
+          <table border="2" >
+              <tr>
+                  <th colspan="3">포토샵</th>
+              </tr>
+              <tr>
+                  <td><img src="사람.jpg" title="human" alt="human" width="300" height="200" /></td>
+                  <td><img src="꽃장미.jpg" title="rose" alt="rose" width="300" height="200" /></td>
+                  <td><img src="cctv.jpg" title="cctv" alt="cctv" width="300" height="200" /></td>
+              </tr>
+              <tr>
+                  <td><h3>클리닝 마스크 기능을 쓴 포토샵</h3></td>
+                  <td><h3>색조에 관련하여 작업한 포토샵</h3></td>
+                  <td><h3>명도에 관련하여 작업한 포토샵</h3></td>
+              </tr>
+          </table>
+         </section>
+         <section id="취미활동">
+                <table border="2" >
+                    <tr>
+                        <th colspan="3">취미활동</th>
+                    </tr>
+                    <tr>
+                        <td><img src="취미활동 1.png" title="hobby1" alt="hobby1" width="300" height="200" /></td>
+                        <td><img src="취미활동 2.jpg" title="hobby2" alt="hobby2" width="300" height="200" /></td>
+                        <td><img src="취미활동 3.jpg" title="hobby3" alt="hobby3" width="300" height="200" /></td>
+                    </tr>
+                    <tr>
+                        <td><h3>컴퓨터 관련 박람회</h3></td>
+                        <td><h3>해외 봉사활동</h3></td>
+                        <td><h3>sw에 관한 설명회</h3></td>
+                    </tr>
+                </table>
+               </section>
+        </section>
+       
+        <section id="bottom">
+        </br>
+    </br>
+</br>
+</br>
+
+
+           
+               <p id="contact">contact us</p>
+              
+              <li>yyyyjw@naver.com</li>
+                <li> 010-6749-3025</li>
+        
+    </br>
+        <p id="contact">Thank you!</p>
+        </section>
+             
+        
+       
+    </body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title> Test page</title>
+        <link rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+        <style>
+            html, body{
+                width:100%;
+                height:100%;
+                margin:0;
+            }
+     
+    
+        </style>
+    </head>
+    <body>
+        <section id="main">
+                 
+        </section>
+    
+    </body>
+</html>
